@@ -1,0 +1,19 @@
+package main
+import  (
+      "fmt"
+     
+)
+
+type student struct {
+ rollno int
+ name   string
+ marks int
+}
+
+
+
+func main() {
+var s1 student = student{101, "sree", 55}
+fmt.Println(s1)
+fmt.Println(s1.name)
+}
